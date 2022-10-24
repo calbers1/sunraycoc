@@ -1,7 +1,7 @@
 <template>
     <span class="header">
         <span class="header-logo col-2">
-            <img src="~/assets/logo-main.png"/>
+            <img src="~/Assets/logo-main.png"/>
         </span>
 
         <span class="header-menu col-12 col-lg-8">

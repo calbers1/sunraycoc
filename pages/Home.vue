@@ -38,7 +38,7 @@ export default {
 	
 <style scoped lang="scss">
 
-    @import '../assets/variables.scss';
+    @import '../Assets/variables.scss';
 
     .mission{
         font-size: 3rem;
