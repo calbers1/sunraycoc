@@ -1,6 +1,5 @@
 <template>
     <span>
-        <MainHeader></MainHeader>
         About
     </span>
 </template>

@@ -1,14 +1,14 @@
 <template>
     <span class="header">
         <span class="header-logo col-2">
-            <img src="../Assets/logo-main.png"/>
+            <img src="../assets/logo-main.png"/>
         </span>
 
         <span class="header-menu col-12 col-lg-8">
-            <NuxtLink to="/Home">Home</NuxtLink>
+            <NuxtLink to="/">Home</NuxtLink>
             <NuxtLink to="/About">About</NuxtLink>
             <NuxtLink to="/Staff">Staff</NuxtLink>
-            <NuxtLink to="/Events">Events</NuxtLink>
+            <NuxtLink to="/Media">Media</NuxtLink>
             <NuxtLink to="/Contact">Contact</NuxtLink>
         </span>
         
@@ -23,7 +23,7 @@ export default {
 	
 <style scoped lang="scss">
 
-    @import '../Assets/variables.scss';
+    @import '../assets/variables.scss';
 
 	.header{
         width: 100%;
