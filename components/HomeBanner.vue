@@ -16,12 +16,12 @@ export default {
 	
 <style lang="scss" scoped>
 
-@import '../assets/variables.scss';
+@import '../Assets/variables.scss';
 	    .HomeBanner{
         width: 100vw;
         margin: 0;
         padding: 0;
-        background-image: url('~/assets/img12.jpg');
+        background-image: url('~/Assets/img12.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         height: 80vh;

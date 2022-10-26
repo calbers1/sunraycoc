@@ -36,7 +36,7 @@ import HomeBanner from '~/components/HomeBanner.vue';
 	
 <style scoped lang="scss">
 
-    @import '../assets/variables.scss';
+    @import '../Assets/variables.scss';
 
 
     .blurble{
