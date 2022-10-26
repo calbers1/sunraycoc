@@ -44,8 +44,6 @@ export default {
         color: white;
         font-weight:bold;
         font-size: 6rem;
-        -webkit-text-stroke-width: 2px;
-        -webkit-text-stroke-color: black;
         @media only screen and (max-width: 992px){
             font-size: 4rem;
         }
