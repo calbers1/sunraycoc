@@ -41,12 +41,12 @@
 
                 <div class="col-12 col-xl-6 t-minus-1">
                     <MediaBanner title="Placeholder" text="Et incididunt tempor incididunt proident tempor deserunt mollit culpa sint." link="/" link-text="Link">
-                        <img src="~/assets/img8.jpg"/>
+                        <img src="../Assets/img8.jpg"/>
                     </MediaBanner> 
                 </div>
                 <div class="col-12 col-xl-6 mt-1 mt-xl-0">
                     <MediaBanner title="Placeholder" text="Et incididunt tempor incididunt proident tempor deserunt mollit culpa sint." link="/" link-text="Link">
-                        <img src="~/assets/img12.jpg"/>
+                        <img src="../Assets/img12.jpg"/>
                     </MediaBanner>
                 </div>
 
