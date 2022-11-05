@@ -74,6 +74,7 @@ import MediaBanner from '~/components/MediaBanner.vue';
     }
     .blurble{
         background-color: $primary-bg;
+        margin: 0;
     }
     .blurb{
         font-size: large;
