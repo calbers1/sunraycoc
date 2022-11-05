@@ -41,12 +41,12 @@
 
                 <div class="col-12 col-xl-6 t-minus-1">
                     <MediaBanner title="Placeholder" text="Et incididunt tempor incididunt proident tempor deserunt mollit culpa sint." link="/" link-text="Link">
-                        <img src="~Assets/img8.jpg"/>
-                    </MediaBanner>
+                        <img src="~/assets/img8.jpg"/>
+                    </MediaBanner> 
                 </div>
                 <div class="col-12 col-xl-6 mt-1 mt-xl-0">
                     <MediaBanner title="Placeholder" text="Et incididunt tempor incididunt proident tempor deserunt mollit culpa sint." link="/" link-text="Link">
-                        <img src="~Assets/img12.jpg"/>
+                        <img src="~/assets/img12.jpg"/>
                     </MediaBanner>
                 </div>
 
@@ -64,7 +64,7 @@ import MediaBanner from '~/components/MediaBanner.vue';
 	
 <style scoped lang="scss">
 
-    @import '../Assets/variables.scss';
+    @import '../assets/variables.scss';
 
     .t-minus-1{
         @media  only screen and (max-width: 570px) {

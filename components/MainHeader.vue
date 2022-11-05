@@ -1,7 +1,7 @@
 <template>
     <span class="header">
         <span class="header-logo col-2">
-            <img src="../Assets/logo-main.png"/>
+            <img src="../assets/logo-main.png"/>
         </span>
 
         <span class="header-menu col-12 col-lg-8">
@@ -24,7 +24,7 @@ export default {
 <style lang="scss">
 
 
-    @import '../Assets/variables.scss';
+    @import '../assets/variables.scss';
     $theme-colors: (
         "primary": $primary,
         "secondary": $secondary,
