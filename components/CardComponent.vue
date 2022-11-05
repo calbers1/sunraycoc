@@ -13,18 +13,21 @@
     const props = defineProps({
         title: String,
     })
-    console.log(props);
 
 </script>
 	
 <style lang="scss" scoped>
 
+@import '../Assets/variables.scss';
     .card{
-        border: 1px solid black;
+        border: none;
+        border-radius: 0;
         margin: 1rem 0;
         padding: 1rem;
         display: flex;
         height: 90%;
+        background-color: $primary-bg;
+        align-items: center;
     }
 
 	h4{
@@ -43,8 +46,8 @@
         padding: 8px 0;
     }
 
-    p{
-        text-align: center;
-        margin: auto 0
+    p, li{
+        margin: .5rem .5rem;
     }
+    
 </style>

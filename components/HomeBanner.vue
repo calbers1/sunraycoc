@@ -2,7 +2,7 @@
     <span>
         <div class="HomeBanner">
             <div class="HomeBannerText">
-                Welcome!
+                Welcome to Sunray!
             </div>
         </div>
     </span>
@@ -18,25 +18,40 @@ export default {
 
 @import '../Assets/variables.scss';
 	    .HomeBanner{
+        background-image: url('~/Assets/img14.jpg');
         width: 100vw;
         margin: 0;
         padding: 0;
-        background-image: url('~/Assets/img12.jpg');
         background-size: cover;
+        background-position: center bottom;
         background-repeat: no-repeat;
-        height: 80vh;
+        height: 75vh;
         display: flex;
         align-items: center;
         justify-content: center;
 
         @media only screen and (max-width: 992px){
-            height: 15rem;
+            height: 50vh;
 
         }
 
         @media only screen and (max-width: 576px){
-            height: 10rem;
+            height: 30vh;
 
+        }
+    }
+
+    .HomeBanner::before{
+        content: '';
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        height: inherit;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 0;        
+        @media only screen and (max-width: 992px){
+            top: 3rem;
         }
     }
 
@@ -44,12 +59,18 @@ export default {
         color: white;
         font-weight:bold;
         font-size: 6rem;
+        z-index: 1;
         @media only screen and (max-width: 992px){
             font-size: 4rem;
         }
 
-        @media only screen and (max-width: 576px){
-            font-size: 2rem;
+        @media only screen and (max-width: 690px){
+            word-wrap: break-word;
+            text-align: center;
+            font-size: 3rem;
+        }
+        @media only screen and (max-width: 520px){
+            font-size: 2.5rem;
         }
     }
 </style>

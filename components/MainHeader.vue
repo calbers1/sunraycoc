@@ -21,10 +21,14 @@ export default {
 }
 </script>
 	
-<style scoped lang="scss">
+<style lang="scss">
+
 
     @import '../Assets/variables.scss';
-
+    $theme-colors: (
+        "primary": $primary,
+        "secondary": $secondary,
+    );
 	.header{
         width: 100%;
         display: flex;
@@ -55,7 +59,8 @@ export default {
     }
 
     .header-menu a{
-        padding-inline: .5rem;
+        padding-inline: .75rem;
+        font-weight: bold;
         color: $primary;
         text-decoration: none !important;
     }
