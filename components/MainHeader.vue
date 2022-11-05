@@ -24,7 +24,7 @@ export default {
 <style lang="scss">
 
 
-    @import '../assets/variables.scss';
+    @import '../Assets/variables.scss';
     $theme-colors: (
         "primary": $primary,
         "secondary": $secondary,

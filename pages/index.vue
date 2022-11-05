@@ -64,7 +64,7 @@ import MediaBanner from '~/components/MediaBanner.vue';
 	
 <style scoped lang="scss">
 
-    @import '../assets/variables.scss';
+    @import '../Assets/variables.scss';
 
     .t-minus-1{
         @media  only screen and (max-width: 570px) {

@@ -16,9 +16,9 @@ export default {
 	
 <style lang="scss" scoped>
 
-@import '../assets/variables.scss';
+@import '../Assets/variables.scss';
 	    .HomeBanner{
-        background-image: url('~/assets/img14.jpg');
+        background-image: url('~/Assets/img14.jpg');
         width: 100vw;
         margin: 0;
         padding: 0;

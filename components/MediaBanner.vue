@@ -24,7 +24,7 @@
 	
 <style lang="scss" scoped>
 
-@import '../assets/variables.scss';
+@import '../Assets/variables.scss';
     .card{
         border: none;
         border-radius: 0;
