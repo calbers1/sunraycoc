@@ -22,12 +22,26 @@
     .card{
         border: none;
         border-radius: 0;
-        margin: 1rem 0;
+        margin: 1rem 0 0 0;
         padding: 1rem;
+        padding-bottom: 2.5rem;
         display: flex;
         height: 90%;
         background-color: $primary-bg;
         align-items: center;
+
+        @media only screen and (max-width: 600px){
+            height: 93%;
+
+        }
+
+        @media only screen and (max-width: 570px){
+            height: 90%;
+        }
+
+        @media only screen and (max-width: 436px){
+            height: 93%;
+        }
     }
 
 	h4{
