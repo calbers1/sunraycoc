@@ -86,12 +86,6 @@ import MediaBanner from '~/components/MediaBanner.vue';
     .mission{
         font-size: 3rem;
     }
-    
-    .main-content{
-        background-color: $secondary-bg;
-        color: $primary;
-        padding: 0 1rem;
-    }
 
     p>a{
         color: adjust-color($color: $primary, $lightness: 20%)

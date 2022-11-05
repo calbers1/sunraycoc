@@ -25,6 +25,12 @@ export default {
 
 
     @import '../Assets/variables.scss';
+
+    .main-content{
+        background-color: $secondary-bg;
+        color: $primary;
+        padding: 0 1rem;
+    }
     $theme-colors: (
         "primary": $primary,
         "secondary": $secondary,
@@ -38,6 +44,7 @@ export default {
         @media only screen and (max-width: 992px){
             height: 3rem;
         }
+        border-bottom: 2px solid $primary;
     }
 
     .header-logo{
