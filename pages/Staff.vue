@@ -4,16 +4,16 @@
             <div class="staff-title">
                 Staff
             </div>
-            <ImageSectionLeftSmall title="Soup Mallen" text="Laborum ad exercitation laborum reprehenderit et proident amet mollit ullamco ex incididunt minim. Deserunt tempor sit esse consectetur non ex fugiat eiusmod. Irure aliquip nostrud in nostrud anim est quis id ipsum officia et.">
+            <ImageSectionLeftSmall title="Soup Mallen, outreach minister" text="Laborum ad exercitation laborum reprehenderit et proident amet mollit ullamco ex incididunt minim. Deserunt tempor sit esse consectetur non ex fugiat eiusmod. Irure aliquip nostrud in nostrud anim est quis id ipsum officia et.">
                 <img src="../Assets/img5.jpg" alt="bible with cross necklace"/>
             </ImageSectionLeftSmall>
-            <ImageSectionRightSmall title="Mallen" text="Duis anim consequat minim pariatur non minim excepteur laboris qui eu ad ullamco. Sunt laborum non ipsum laborum esse fugiat dolor nulla Lorem deserunt ullamco ad. Esse irure minim velit deserunt sunt eiusmod.">
+            <ImageSectionRightSmall title="Mallen, secretary" text="Duis anim consequat minim pariatur non minim excepteur laboris qui eu ad ullamco. Sunt laborum non ipsum laborum esse fugiat dolor nulla Lorem deserunt ullamco ad. Esse irure minim velit deserunt sunt eiusmod.">
                 <img src="../Assets/img10-1.jpg" alt="bible with cross necklace"/>
             </ImageSectionRightSmall>
-            <ImageSectionLeftSmall title="Flower Mallen" text="Laborum ad exercitation laborum reprehenderit et proident amet mollit ullamco ex incididunt minim. Deserunt tempor sit esse consectetur non ex fugiat eiusmod. Irure aliquip nostrud in nostrud anim est quis id ipsum officia et.">
+            <ImageSectionLeftSmall title="Flower Mallen, spanish minister" text="Laborum ad exercitation laborum reprehenderit et proident amet mollit ullamco ex incididunt minim. Deserunt tempor sit esse consectetur non ex fugiat eiusmod. Irure aliquip nostrud in nostrud anim est quis id ipsum officia et.">
                 <img src="../Assets/img11.jpg" alt="bible with cross necklace"/>
             </ImageSectionLeftSmall>
-            <ImageSectionRightSmall title="Sanc" text="Duis anim consequat minim pariatur non minim excepteur laboris qui eu ad ullamco. Sunt laborum non ipsum laborum esse fugiat dolor nulla Lorem deserunt ullamco ad. Esse irure minim velit deserunt sunt eiusmod.">
+            <ImageSectionRightSmall title="Sanc, elder" text="Duis anim consequat minim pariatur non minim excepteur laboris qui eu ad ullamco. Sunt laborum non ipsum laborum esse fugiat dolor nulla Lorem deserunt ullamco ad. Esse irure minim velit deserunt sunt eiusmod.">
                 <img src="../Assets/img13.png" alt="bible with cross necklace"/>
             </ImageSectionRightSmall>
         </div>
