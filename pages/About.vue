@@ -32,9 +32,6 @@ export default {
 <style scoped lang="scss">
 
 @import '../Assets/variables.scss';
-	.about{
-        background-color: $secondary-bg;
-    }
 
     .about-title{
         font-weight:bold;
