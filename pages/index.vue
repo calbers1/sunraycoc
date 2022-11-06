@@ -12,10 +12,10 @@
                 <div class="col-12 col-xl-6">
                     <CardComponent title="Service Schedule">
                         <div class="col-12">
-                            <p>Sunday: 9AM and 6PM</p>
+                            <p>Sunday: 9:00 AM and 6:00 PM</p>
                         </div>
                         <div class="col-12">
-                            <p>Wednesday: 7PM</p>
+                            <p>Wednesday: 7:00 PM</p>
                         </div>
                     </CardComponent>
                 </div>
