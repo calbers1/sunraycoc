@@ -1,12 +1,13 @@
 <template>
     <span>
-        <div class="row ImageSectionLeft">
-            <div class="col-12 col-lg-6 img-col">
-                <slot></slot>
-            </div>
+        <div class="row ImageSectionRight">
             <div class="col-12 col-lg-6 text-col">
                 <p class="text">{{text}}</p>
             </div>
+            <div class="col-12 col-lg-6 img-col">
+                <slot></slot>
+            </div>
+
         </div>
     </span>
 </template>
@@ -21,10 +22,11 @@
 
 @import '../Assets/variables.scss';
 
-.ImageSectionLeft{
+.ImageSectionRight{
     margin: 0 1rem 1rem 1rem;
     background: $primary-bg;
     border-radius: 5px;
+    flex-wrap: wrap-reverse;
 }
 
 .img-col{
