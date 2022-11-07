@@ -34,12 +34,19 @@ export default {
 
         @media only screen and (max-width: 992px){
             height: 50vh;
-
+            background-position: 50% -15rem;
         }
 
         @media only screen and (max-width: 576px){
             height: 30vh;
+            background-size: contain;
+            background-position: 0% 7%;
+        }
 
+        @media only screen and (max-width: 430px){
+            height: 30vh;
+            background-position: top;
+            background-image: url('~/Assets/tinywow-church-building.jpg');
         }
     }
 
