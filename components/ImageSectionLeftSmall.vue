@@ -1,6 +1,6 @@
 <template>
     <span>
-        <div class="row ImageSectionLeftSmall">
+        <div class="row ImageSectionLeftSmall" :class="{shadow: shadow}">
             <div class="col-12 col-lg-6 img-col">
             <div class="title col-12 text-center">{{title}}</div>
 
@@ -17,6 +17,7 @@
     const props = defineProps({
         text: String,
         title: String,
+        shadow: Boolean,
     })
 </script>
 	
@@ -30,6 +31,13 @@
     margin: 0 1rem 1rem 1rem;
     background: $primary-bg;
     border-radius: 5px;
+}
+
+.shadow {
+    border: none !important;
+    box-shadow: 0px 0px 10px 0px rgba(144, 154, 161, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(144, 154, 161, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(144, 154, 161, 0.75);
 }
 
 .img-col{
