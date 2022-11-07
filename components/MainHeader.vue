@@ -22,12 +22,18 @@ export default {
 </script>
 	
 <style lang="scss">
+@import '../Assets/variables.scss';
 
-
-    @import '../Assets/variables.scss';
-
-    .main-content{
-        background-color: $secondary-bg;
+    .h-line {
+        width: 90%;
+        margin: 0 auto;
+        height: 0px;
+        border-top: 1px solid rgba(0, 0, 0, 0.175);
+        padding: 8px 0;
+    }
+    .main{
+        max-width: 1600px;
+        margin: 0 auto;
         color: $primary;
         padding: 0 1rem;
     }

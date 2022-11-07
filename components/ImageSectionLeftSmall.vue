@@ -21,12 +21,12 @@
 </script>
 	
 <style lang="scss" scoped>
-
 @import '../Assets/variables.scss';
 .title{
     font-size: 1.5rem;
 }
 .ImageSectionLeftSmall{
+    border: 2px solid $primary;
     margin: 0 1rem 1rem 1rem;
     background: $primary-bg;
     border-radius: 5px;
@@ -59,15 +59,19 @@ img{
 
 .text-col{
     display: flex;
+    justify-content: start;
+    align-items: center;
+        @media only screen and (max-width: 992px) {
+            justify-content: center;
+    }
 }
 .text{
     font-size: 1.75rem;
-    justify-self: center;
-    align-self: center;
     color: $primary;
+    width: 80%;
     @media only screen and (max-width: 600px) {
         font-size: 1.25rem;
+        width: 100%;
     }
 }
-	
 </style>

@@ -51,15 +51,6 @@
         }
     }
 
-    .h-line{
-        width: 100%; 
-        margin: 0 auto;
-        height: 0px;
-        border-top: 1px solid black;
-        border-radius: 1px;
-        padding: 8px 0;
-    }
-
     p, li{
         margin: .5rem .5rem;
     }

@@ -6,7 +6,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nostrum aliquam ab debitis quia magnam ea temporibus. (Mission statement/scripture/small blurb)
             </div>
         </div>
-        <div class="main-content">
+        <div class="main">
             <div class="row pt-4">
 
                 <div class="col-12 col-xl-6">
@@ -73,7 +73,7 @@ import MediaBanner from '~/components/MediaBanner.vue';
         }
     }
     .blurble{
-        background-color: $primary-bg;
+        background-color: $secondary-bg;
         margin: 0;
     }
     .blurb{

@@ -1,6 +1,6 @@
 <template>
     <span>
-        <div class="main-content pb-4">
+        <div class="main pb-4">
             <div class="staff-title">
                 Staff
             </div>

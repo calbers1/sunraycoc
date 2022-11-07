@@ -24,7 +24,8 @@
 .footer{
     width: 100%;
     min-height: 80px;
-    background: $primary-bg;
+    background: $secondary-bg;
+    color: $primary;
     display: flex;
     justify-content: space-around;
     align-items: center;

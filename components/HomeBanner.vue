@@ -1,8 +1,10 @@
 <template>
     <span>
         <div class="HomeBanner">
-            <div class="HomeBannerText">
-                Welcome to Sunray!
+            <div class="HomeBannerTextContainer">
+                <div class="HomeBannerText">
+                    <span class="front">Welcome</span> <span class="back">to Sunray!</span>
+                </div>
             </div>
         </div>
     </span>
@@ -15,7 +17,6 @@ export default {
 </script>
 	
 <style lang="scss" scoped>
-
 @import '../Assets/variables.scss';
 	    .HomeBanner{
         background-image: url('~/Assets/img14.jpg');
@@ -25,6 +26,7 @@ export default {
         background-size: cover;
         background-position: center bottom;
         background-repeat: no-repeat;
+        background-attachment: fixed;
         height: 75vh;
         display: flex;
         align-items: center;
@@ -56,6 +58,11 @@ export default {
     }
 
     .HomeBannerText{
+        transform: translateY(-10rem);
+        animation-name: slide-up;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
         color: white;
         font-weight:bold;
         font-size: 6rem;
@@ -71,6 +78,22 @@ export default {
         }
         @media only screen and (max-width: 520px){
             font-size: 2.5rem;
+        }
+    }
+
+    .HomeBannerTextContainer{
+        overflow: hidden;
+        z-index: 1;
+    }
+
+
+    //animation stuff
+    @keyframes slide-up{
+        0%{
+            transform: translateY(-10rem);
+        }
+        100%{
+            transform: translateY(0px);
         }
     }
 </style>
