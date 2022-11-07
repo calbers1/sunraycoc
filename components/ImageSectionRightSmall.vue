@@ -1,6 +1,6 @@
 <template>
     <span>
-        <div class="row ImageSectionRightSmall pl-0 pl-lg-3" :class="{shadow: shadow}">
+        <div class="row ImageSectionRightSmall pl-0 pl-lg-3" :class="{_shadow: shadow}">
             <div class="col-12 col-lg-6 text-col">
                 <p class="text">{{text}}</p>
             </div>
@@ -36,7 +36,7 @@
     flex-wrap: wrap-reverse;
 }
 
-.shadow {
+._shadow {
     border: none !important;
     box-shadow: 0px 0px 10px 0px rgba(144, 154, 161, 0.75);
     -webkit-box-shadow: 0px 0px 10px 0px rgba(144, 154, 161, 0.75);
