@@ -67,8 +67,9 @@ export default {
     .HomeBannerText{
         transform: translateY(-10rem);
         animation-name: slide-up;
-        animation-duration: 2s;
+        animation-duration: 1s;
         animation-delay: 1s;
+        animation-timing-function: ease-out;
         animation-fill-mode: forwards;
         color: white;
         font-weight:bold;
@@ -97,7 +98,7 @@ export default {
     //animation stuff
     @keyframes slide-up{
         0%{
-            transform: translateY(-10rem);
+            transform: translateY(10rem);
         }
         100%{
             transform: translateY(0px);

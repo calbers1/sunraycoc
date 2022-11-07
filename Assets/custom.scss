@@ -1,0 +1,9 @@
+@import "../Assets/variables.scss";
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    ) !default;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import '~bootstrap-vue/src/index.scss';

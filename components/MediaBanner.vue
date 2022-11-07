@@ -6,7 +6,7 @@
             <h5 class="card-title">{{title}}</h5>
             <div class="h-line"></div>
             <p class="card-text">{{text}}</p>
-            <a :href="link" class="btn btn-primary">{{linkText}}</a>
+            <a :href="link" class="btn btn-outline-primary">{{linkText}}</a>
         </div>
     </div>
     </span>
@@ -60,7 +60,6 @@
         margin-top: 2rem;
         margin-bottom: -1rem;
         width: 100%;
-        background: $primary;
     }
 
     .btn:hover{

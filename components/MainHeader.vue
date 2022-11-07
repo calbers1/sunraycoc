@@ -76,5 +76,12 @@ export default {
         font-weight: bold;
         color: $primary;
         text-decoration: none !important;
+        transition: .25s;
+        border-bottom: 3px solid $primary-bg;
+    }
+    
+    .header-menu a:hover{
+        transition: .5s;
+        border-bottom: 3px solid $primary;
     }
 </style>
